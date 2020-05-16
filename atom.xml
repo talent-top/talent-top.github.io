@@ -2,19 +2,129 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ZuXu的博客</title>
   
-  
+  <subtitle>英巅</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://talent-top.github.io/"/>
-  <updated>2020-05-15T01:33:47.226Z</updated>
+  <updated>2020-05-15T16:00:59.146Z</updated>
   <id>https://talent-top.github.io/</id>
   
   <author>
-    <name>ZuXu</name>
+    <name>英巅</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test2</title>
+    <link href="https://talent-top.github.io/undefined/c9f9.html"/>
+    <id>https://talent-top.github.io/undefined/c9f9.html</id>
+    <published>2020-05-15T14:17:18.000Z</published>
+    <updated>2020-05-15T16:00:59.146Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;当${h_\theta}\left( x \right)&amp;gt;=0.5$时，预测 $y=1$。&lt;/p&gt;
+&lt;p&gt;当${h_\theta}\left( x \right)&amp;lt;0.5$时，预测 $y=0$ 。&lt;/p&gt;
+&lt;p&gt;当${h_\theta}\left( x
+        
+      
+    
+    </summary>
+    
+    
+      <category term="favorite" scheme="https://talent-top.github.io/categories/favorite/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test1</title>
+    <link href="https://talent-top.github.io/undefined/c8b9.html"/>
+    <id>https://talent-top.github.io/undefined/c8b9.html</id>
+    <published>2020-05-15T14:16:51.000Z</published>
+    <updated>2020-05-15T15:00:33.243Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这是第一篇文章&lt;br&gt;当${h_\theta}\left( x \right)&amp;gt;=0.5$时，预测 $y=1$。&lt;/p&gt;
+&lt;p&gt;当${h_\theta}\left( x \right)&amp;lt;0.5$时，预测 $y=0$
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="https://talent-top.github.io/categories/Python/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>机器学习清单</title>
+    <link href="https://talent-top.github.io/undefined/7144.html"/>
+    <id>https://talent-top.github.io/undefined/7144.html</id>
+    <published>2020-05-15T07:32:36.000Z</published>
+    <updated>2020-05-16T00:28:42.114Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;附录-B、机器学习项目清单&quot;&gt;&lt;a href=&quot;#附录-B、机器学习项目清单&quot; class=&quot;headerlink&quot; title=&quot;附录 B、机器学习项目清单&quot;&gt;&lt;/a&gt;附录 B、机器学习项目清单&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;译者：&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="机器学习" scheme="https://talent-top.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="python" scheme="https://talent-top.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>math</title>
+    <link href="https://talent-top.github.io/undefined/9c6b.html"/>
+    <id>https://talent-top.github.io/undefined/9c6b.html</id>
+    <published>2020-05-15T04:35:39.000Z</published>
+    <updated>2020-05-16T00:28:46.276Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;当${h_\theta}\left( x \right)&amp;gt;=0.5$时，预测 $y=1$。&lt;/p&gt;
+&lt;p&gt;当${h_\theta}\left( x \right)&amp;lt;0.5$时，预测 $y=0$ 。&lt;/p&gt;
+&lt;p&gt;当${h_\theta}\left( x
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="https://talent-top.github.io/categories/Python/"/>
+    
+    
+      <category term="python" scheme="https://talent-top.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
