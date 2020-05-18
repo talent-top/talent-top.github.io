@@ -351,19 +351,10 @@
                 
                 
                 
-                <a href="/categories/book/" title="book: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F9EBEA;">book
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/mysql/" title="mysql: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            style="background-color: #F5EEF8;">mysql
+                            style="background-color: #F9EBEA;">mysql
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -372,7 +363,16 @@
                 <a href="/categories/python/" title="python: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D5F5E3;">python
+                            style="background-color: #F5EEF8;">python
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/book/" title="book: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">book
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -719,7 +719,7 @@ $(function () {
             const strs = href.split('/');
             if (strs.length >= 3) {
                 const host = strs[2];
-                if (host !== ' your_domain' || window.location.host) {
+                if (host !== ' https://talent-top.gitee.io' || window.location.host) {
                     $this.attr('href', '/go.html?u='+Base64.encode(href)+'').attr('rel', 'external nofollow noopener noreferrer');
                     if (true) {
                         $this.attr('target', '_blank');
