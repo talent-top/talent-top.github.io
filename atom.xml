@@ -5,9 +5,9 @@
   <subtitle>英巅</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://talent-top.github.io/"/>
+  <link href="https://github.com/talent-top/"/>
   <updated>2020-05-16T13:48:33.567Z</updated>
-  <id>https://talent-top.github.io/</id>
+  <id>https://github.com/talent-top/</id>
   
   <author>
     <name>英巅</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://talent-top.github.io/undefined/3eeb.html"/>
-    <id>https://talent-top.github.io/undefined/3eeb.html</id>
+    <link href="https://github.com/talent-top/undefined/3eeb.html"/>
+    <id>https://github.com/talent-top/undefined/3eeb.html</id>
     <published>2020-05-16T04:39:17.000Z</published>
     <updated>2020-05-16T13:48:33.567Z</updated>
     
@@ -29,22 +29,22 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;
         
       
     
     </summary>
     
     
-      <category term="mysql" scheme="https://talent-top.github.io/categories/mysql/"/>
+      <category term="mysql" scheme="https://github.com/talent-top/categories/mysql/"/>
     
     
   </entry>
   
   <entry>
     <title>神经网络</title>
-    <link href="https://talent-top.github.io/undefined/164d.html"/>
-    <id>https://talent-top.github.io/undefined/164d.html</id>
+    <link href="https://github.com/talent-top/undefined/164d.html"/>
+    <id>https://github.com/talent-top/undefined/164d.html</id>
     <published>2020-05-16T03:39:17.000Z</published>
     <updated>2020-05-16T08:36:37.353Z</updated>
     
@@ -62,17 +62,17 @@
     </summary>
     
     
-      <category term="机器学习" scheme="https://talent-top.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="https://github.com/talent-top/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="机器学习" scheme="https://talent-top.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="https://github.com/talent-top/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>机器学习清单</title>
-    <link href="https://talent-top.github.io/undefined/7144.html"/>
-    <id>https://talent-top.github.io/undefined/7144.html</id>
+    <link href="https://github.com/talent-top/undefined/7144.html"/>
+    <id>https://github.com/talent-top/undefined/7144.html</id>
     <published>2020-05-15T07:32:36.000Z</published>
     <updated>2020-05-16T03:44:58.980Z</updated>
     
@@ -90,17 +90,17 @@
     </summary>
     
     
-      <category term="book" scheme="https://talent-top.github.io/categories/book/"/>
+      <category term="book" scheme="https://github.com/talent-top/categories/book/"/>
     
     
-      <category term="python" scheme="https://talent-top.github.io/tags/python/"/>
+      <category term="python" scheme="https://github.com/talent-top/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>math</title>
-    <link href="https://talent-top.github.io/undefined/9c6b.html"/>
-    <id>https://talent-top.github.io/undefined/9c6b.html</id>
+    <link href="https://github.com/talent-top/undefined/9c6b.html"/>
+    <id>https://github.com/talent-top/undefined/9c6b.html</id>
     <published>2020-05-15T04:35:39.000Z</published>
     <updated>2020-05-16T13:48:37.756Z</updated>
     
@@ -119,10 +119,10 @@
     </summary>
     
     
-      <category term="python" scheme="https://talent-top.github.io/categories/python/"/>
+      <category term="python" scheme="https://github.com/talent-top/categories/python/"/>
     
     
-      <category term="python" scheme="https://talent-top.github.io/tags/python/"/>
+      <category term="python" scheme="https://github.com/talent-top/tags/python/"/>
     
   </entry>
   
