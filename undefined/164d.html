@@ -490,8 +490,8 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="十一、训练深层神经网络"><a href="#十一、训练深层神经网络" class="headerlink" title="十一、训练深层神经网络"></a>十一、训练深层神经网络</h1><blockquote>
-<p>译者：<a href="https://github.com/wangxupeng">@akonwang</a>、<a href="https://github.com/wizardforcel">@飞龙</a></p>
-<p>校对者：<a href="https://github.com/wizardforcel">@飞龙</a>、<a href="https://github.com/zhearing">@ZeyuZhong</a></p>
+<p>译者：<a href="https://github.com/wangxupeng" target="_blank" rel="noopener">@akonwang</a>、<a href="https://github.com/wizardforcel" target="_blank" rel="noopener">@飞龙</a></p>
+<p>校对者：<a href="https://github.com/wizardforcel" target="_blank" rel="noopener">@飞龙</a>、<a href="https://github.com/zhearing" target="_blank" rel="noopener">@ZeyuZhong</a></p>
 </blockquote>
 <p>第 10 章介绍了人工神经网络，并训练了我们的第一个深度神经网络。 但它是一个非常浅的 DNN，只有两个隐藏层。 如果你需要解决非常复杂的问题，例如检测高分辨率图像中的数百种类型的对象，该怎么办？ 你可能需要训练更深的 DNN，也许有 10 层，每层包含数百个神经元，通过数十万个连接来连接。 这不会是闲庭信步：</p>
 <ul>
@@ -824,8 +824,8 @@ with tf.Session() as sess:
 <p>尝试先冻结所有复制的层，然后训练模型并查看它是如何执行的。 然后尝试解冻一个或两个较高隐藏层，让反向传播调整它们，看看性能是否提高。 您拥有的训练数据越多，您可以解冻的层数就越多。</p>
 <p>如果仍然无法获得良好的性能，并且您的训练数据很少，请尝试删除顶部的隐藏层，并再次冻结所有剩余的隐藏层。 您可以迭代，直到找到正确的层数重复使用。 如果您有足够的训练数据，您可以尝试替换顶部的隐藏层，而不是丢掉它们，甚至可以添加更多的隐藏层。</p>
 <h2 id="Model-Zoos"><a href="#Model-Zoos" class="headerlink" title="Model Zoos"></a>Model Zoos</h2><p>你在哪里可以找到一个类似于你想要解决的任务训练的神经网络？ 首先看看显然是在你自己的模型目录。 这是保存所有模型并组织它们的一个很好的理由，以便您以后可以轻松地检索它们。 另一个选择是在模型动物园中搜索。 许多人为了各种不同的任务而训练机器学习模型，并且善意地向公众发布预训练模型。</p>
-<p>TensorFlow 在 <a href="https://github.com/tensorflow/models">https://github.com/tensorflow/models</a> 中有自己的模型动物园。 特别是，它包含了大多数最先进的图像分类网络，如 VGG，Inception 和 ResNet（参见第 13 章，检查<code>model/slim</code>目录），包括代码，预训练模型和 工具来下载流行的图像数据集。</p>
-<p>另一个流行的模型动物园是 Caffe 模型动物园。 它还包含许多在各种数据集（例如，ImageNet，Places 数据库，CIFAR10 等）上训练的计算机视觉模型（例如，LeNet，AlexNet，ZFNet，GoogLeNet，VGGNet，开始）。 Saumitro Dasgupta 写了一个转换器，可以在 <a href="https://github.com/ethereon/caffetensorflow">https://github.com/ethereon/caffetensorflow</a>。</p>
+<p>TensorFlow 在 <a href="https://github.com/tensorflow/models" target="_blank" rel="noopener">https://github.com/tensorflow/models</a> 中有自己的模型动物园。 特别是，它包含了大多数最先进的图像分类网络，如 VGG，Inception 和 ResNet（参见第 13 章，检查<code>model/slim</code>目录），包括代码，预训练模型和 工具来下载流行的图像数据集。</p>
+<p>另一个流行的模型动物园是 Caffe 模型动物园。 它还包含许多在各种数据集（例如，ImageNet，Places 数据库，CIFAR10 等）上训练的计算机视觉模型（例如，LeNet，AlexNet，ZFNet，GoogLeNet，VGGNet，开始）。 Saumitro Dasgupta 写了一个转换器，可以在 <a href="https://github.com/ethereon/caffetensorflow" target="_blank" rel="noopener">https://github.com/ethereon/caffetensorflow</a>。</p>
 <h2 id="无监督的预训练"><a href="#无监督的预训练" class="headerlink" title="无监督的预训练"></a>无监督的预训练</h2><p><img src="../images/chapter_11/11-5.png" alt=""></p>
 <p>假设你想要解决一个复杂的任务，你没有太多的标记的训练数据，但不幸的是，你不能找到一个类似的任务训练模型。 不要失去所有希望！ 首先，你当然应该尝试收集更多的有标签的训练数据，但是如果这太难或太昂贵，你仍然可以进行无监督的训练（见图 11-5）。 也就是说，如果你有很多未标记的训练数据，你可以尝试逐层训练层，从最低层开始，然后上升，使用无监督的特征检测算法，如限制玻尔兹曼机（RBM；见附录 E）或自动编码器（见第 15 章）。 每个层都被训练成先前训练过的层的输出（除了被训练的层之外的所有层都被冻结）。 一旦所有层都以这种方式进行了训练，就可以使用监督式学习（即反向传播）对网络进行微调。</p>
 <p>这是一个相当漫长而乏味的过程，但通常运作良好。 实际上，这是 Geoffrey Hinton 和他的团队在 2006 年使用的技术，导致了神经网络的复兴和深度学习的成功。 直到 2010 年，无监督预训练（通常使用 RBM）是深度网络的标准，只有在梯度消失问题得到缓解之后，纯训练 DNN 才更为普遍。 然而，当您有一个复杂的任务需要解决时，无监督训练（现在通常使用自动编码器而不是 RBM）仍然是一个很好的选择，没有类似的模型可以重复使用，而且标记的训练数据很少，但是大量的未标记的训练数据。（另一个选择是提出一个监督的任务，您可以轻松地收集大量标记的训练数据，然后使用迁移学习，如前所述。 例如，如果要训练一个模型来识别图片中的朋友，你可以在互联网上下载数百万张脸并训练一个分类器来检测两张脸是否相同，然后使用此分类器将新图片与你朋友的每张照片做比较。）</p>
